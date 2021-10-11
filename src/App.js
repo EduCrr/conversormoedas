@@ -29,7 +29,7 @@ function App() {
   const [alertShow, setAlertShow] = useState(false);
 
   function handleValor(e) {
-    //pegar todos os dados n numericos invertar para ''
+    // dados n numericos
     setValor(e.target.value.replace(/\D/g, ""));
   }
 
